@@ -9,6 +9,6 @@ public class RootManager extends BorderPane{
   public RootManager(){
     this.setTop(new MenuManager());
     this.setLeft(new LeftPage());
-    this.setCenter(new CenterPage(new Accueil()));
+    this.setCenter(new Accueil());
   }
 }
